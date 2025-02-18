@@ -9,6 +9,10 @@ param aiHubName = readEnvironmentVariable('AZUREAI_HUB_NAME', '')
 param aiProjectName = readEnvironmentVariable('AZUREAI_PROJECT_NAME', '')
 
 param openAiName = readEnvironmentVariable('AZURE_OPENAI_NAME', '')
+param openAiDeploymentName = readEnvironmentVariable('AZURE_OPENAI_CHAT_DEPLOYMENT','gpt-4')
+param openAiApiVersion = readEnvironmentVariable('AZURE_OPENAI_API_VERSION','2024-10-21')
+param openAiEmbeddingDeploymentName = readEnvironmentVariable('AZURE_EMBEDDING_NAME','text-embedding-ada-002')
+
 param searchServiceName = readEnvironmentVariable('AZURE_SEARCH_SERVICE_NAME', '')
 
 param applicationInsightsName = readEnvironmentVariable('AZURE_APPLICATION_INSIGHTS_NAME', '')

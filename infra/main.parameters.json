@@ -8,18 +8,14 @@
     "location": {
       "value": "${AZURE_LOCATION}"
     },
-    "openAiResourceName": {
-      "value": "${AZURE_OPENAI_RESOURCE_NAME}"
+    "openAiDeploymentName": {
+      "value": "${AZURE_OPENAI_CHAT_DEPLOYMENT}"
     },
-  
     "openAiApiVersion": {
-      "value": "${AZURE_OPENAI_API_VERSION=2023-07-01-preview}"
+      "value": "${AZURE_OPENAI_API_VERSION}"
     },
     "openAiEmbeddingDeploymentName": {
-      "value": "${AZURE_EMBEDDING_NAME=text-embedding-ada-002}"
-    },
-    "openAiDeploymentName": {
-      "value": "${AZURE_OPENAI_CHAT_DEPLOYMENT_NAME=gpt-35-turbo}"
+      "value": "${AZURE_EMBEDDING_NAME}"
     },
     "principalId": {
       "value": "${AZURE_PRINCIPAL_ID}"
